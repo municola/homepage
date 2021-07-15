@@ -1,3 +1,3 @@
 # nicolasmuntwyler
 
-Personal Homepage
+Personal Website
