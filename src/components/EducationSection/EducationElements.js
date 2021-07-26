@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const EducationContainer = styled.div`
-    height: 900px;
     background-color: #4b6cc1;
 
 `
@@ -10,6 +9,7 @@ export const EducationWrapper = styled.div`
     width: 100%;
     margin: auto;
     padding-top: 100px;
+    padding-bottom: 100px;
     justify-content: center;
 
 `
