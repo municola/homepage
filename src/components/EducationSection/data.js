@@ -1,6 +1,6 @@
 export const timelineElements = [
     {
-        id:1,
+        key:1,
         title: "Msc. Computer Science",
         location: "ETH",
         description: "Major: Machine Intelligence",
@@ -9,7 +9,7 @@ export const timelineElements = [
         icon: "school",
     },
     {
-        id: 2,
+        key: 2,
         title: "Bsc. Computer Science",
         location: "ETH",
         description: "Major: Machine Intelligence",
@@ -18,7 +18,7 @@ export const timelineElements = [
         icon: "school",
     },
     {
-        id: 3,
+        key: 3,
         title: "Matura",
         location: "MNG Rämibühl",
         description: "Focus: Applied Mathematics and Physics",

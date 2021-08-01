@@ -5,8 +5,6 @@ import {FaGraduationCap} from 'react-icons/fa'
 import {timelineElements} from './data'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
-import { element } from 'prop-types'
-
 
 const EducationSection = () => {
     return (
