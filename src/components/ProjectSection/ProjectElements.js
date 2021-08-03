@@ -23,6 +23,8 @@ export const ProjectH1 = styled.h1`
     margin-bottom: 100px;
 `
 export const CardsContainer = styled.div`
+    width: 100%;
+    padding: 0 24px;
     max-width: 1100px;
     display: flex;
     flex-direction: column;
@@ -30,20 +32,49 @@ export const CardsContainer = styled.div`
 
 export const MLContainer = styled.div`
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 230px 230px 230px 230px;
+    margin-bottom: 50px;
+
+    @media screen and (max-width: 1205px) {
+        grid-template-columns: 230px 230px;
+        justify-content: center;
+    }
+
+    @media screen and (max-width: 590px) {
+        grid-template-columns: 230px;
+        justify-content: center;
+        justify-items: center;
+    }
 `
 
 export const MlTitle = styled.h1`
+    grid-column-start: 1;
+    grid-column-end: -1;
+    display: flex;
     color: #fff;
     font-weight: 100;
     padding-bottom: 2rem;
 `
-
-export const MlCardsContainer = styled.div`
+export const WebTitle = styled.div`
+    grid-column-start: 1;
+    grid-column-end: -1;
+    color: #fff;
+    padding-bottom: 2rem;
     display: flex;
-    justify-content: space-between;
+
 `
+
+export const WebTitleFont = styled.h1`
+    font-weight: 100;
+    margin-top: 50px;
+
+    @media screen and (max-width: 590px) {
+        text-align: center;
+    }
+`
+
 
 export const CardItem = styled.div`
     background: yellow;
@@ -56,18 +87,3 @@ export const CardItemLink = styled(LinkR)`
 export const CardImg = styled.img`
     
 `
-
-
-export const rootStyle = {
-    maxWidth: 345,
-}
-
-export const mediaStyle = {
-    root: {
-        maxWidth: 345,
-      },
-    media: {
-        height: 100,
-    },
-}
-
