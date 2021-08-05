@@ -7,7 +7,7 @@ import Card from './Card'
 
 export default function ProjectSection() {
     return (
-        <ProjectContainer>
+        <ProjectContainer id="projects">
             <ProjectH1>Projects</ProjectH1>
             <CardsContainer>
                 <MLContainer>

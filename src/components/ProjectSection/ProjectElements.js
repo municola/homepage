@@ -3,7 +3,6 @@ import {Link as LinkR} from 'react-router-dom'
 
 export const ProjectContainer = styled.div`
     width: 100%;
-    min-height: 810px;
     background: #232a34;
     display: flex;
     justify-content: center;

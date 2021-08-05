@@ -4,7 +4,7 @@ import { HeroContainer, HeroBg, HeroImg, HeroContent, HeroH1, HeroH2 } from './H
 
 const HeroSection = () => {
     return (
-        <HeroContainer>
+        <HeroContainer id="home">
             <HeroBg>
                 <HeroImg />
             </HeroBg>

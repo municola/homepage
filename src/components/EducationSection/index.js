@@ -9,7 +9,7 @@ import 'react-vertical-timeline-component/style.min.css'
 const EducationSection = () => {
     return (
         <>
-          <EducationContainer>
+          <EducationContainer id='education'>
               <EducationWrapper>
                   <EducationH1>
                     Education
