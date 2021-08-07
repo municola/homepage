@@ -4,7 +4,7 @@ import {CardItem} from './ProjectElements'
 class Card extends Component {
     render() {
         return (
-            <CardItem>
+            <CardItem to={this.props.data.path}>
                 <h3>{this.props.data.title}</h3>
             </CardItem>
         );

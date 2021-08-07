@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import {Link as LinkR} from 'react-router-dom'
+import {HashLink as LinkH} from 'react-router-hash-link';
 
 export const ProjectContainer = styled.div`
     width: 100%;
@@ -74,7 +75,7 @@ export const WebTitleFont = styled.h1`
     }
 `
 
-export const CardItem = styled.div`
+export const CardItem = styled(LinkH)`
     background: yellow;
     height: 230px;
     width: 230px;

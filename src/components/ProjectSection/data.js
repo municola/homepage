@@ -3,6 +3,7 @@ import img1 from "../../images/minion.jpg"
 export const MlCards = [
     {
         key:1,
+        path: "BachelorThesis",
         title: "Surface Reconstruction",
         area: "Computer Graphics",
         description: "Given a 3D input point cloud we return the reconstructed shape in a 3d mesh representation",
@@ -11,6 +12,7 @@ export const MlCards = [
     },
     {
         key: 2,
+        path: "OpticalFlow",
         title: "Optical Flow",
         description: "We predict the optical flow between two succcesive images",
         area: "Computer Vision",
@@ -19,6 +21,7 @@ export const MlCards = [
     },
     {
         key: 3,
+        path: "AuthorPrediction",
         title: "Author prediction",
         description: "Based on judical opinion text, we perform an authorship attribution prediction",
         area: "Natural Language processing",
@@ -27,6 +30,7 @@ export const MlCards = [
     },
     {
         key: 4,
+        path: "Others",
         title: "Other smaller projects",
         description: "Here I list some selected smaller projects, which however were still very intersting",
         area: "Medicine",
@@ -38,18 +42,21 @@ export const MlCards = [
 export const WebCards = [
     {
         key:5,
+        path: "ConnectFour",
         title: "ConnectFour",
         area: "React, Redux, NodeJs",
         display: true,
     },
     {
         key: 6,
+        path: "LolAPI",
         title: "LoL API",
         area: "React, RestAPI",
         display: true,
     },
     {
         id: 7,
+        path: "Homepage",
         title: "Homepage",
         area: "React",
         display: true,

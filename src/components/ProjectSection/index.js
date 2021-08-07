@@ -12,11 +12,11 @@ export default function ProjectSection() {
             <CardsContainer>
                 <MLContainer>
                     <MlTitle>ML/AI Projects</MlTitle>
-											{MlCards.map((element) => {
-													return (
-														<Card data={element}/>
-													);
-											})}
+                                    {MlCards.map((element) => {
+                                            return (
+                                                <Card data={element}/>
+                                            );
+                                    })}
                 </MLContainer>
                 <MLContainer>
 									<WebTitle>
