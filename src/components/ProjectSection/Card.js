@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import { ProjectContainer, ProjectH1, CardsContainer, MLContainer,
-    MlTitle, MlCardsContainer, CardItem, CardItemLink, CardImg} from './ProjectElements'
+import {CardItem} from './ProjectElements'
 
 class Card extends Component {
     render() {

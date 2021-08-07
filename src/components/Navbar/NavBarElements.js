@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import {Link as LinkR} from 'react-router-dom'
 import {Link as LinkS} from 'react-scroll'
+import {HashLink as LinkH} from 'react-router-hash-link';
 
 export const Nav = styled.nav`
     background: #000;
@@ -30,7 +31,7 @@ export const NavbarContainer = styled.div`
     max-width: 1100px;
 `;
 
-export const NavLogo = styled(LinkS)`
+export const NavLogo = styled(LinkH)`
     color: #fff;
     justify-self: flex-start;
     cursor: pointer;
@@ -72,7 +73,7 @@ export const NavItem = styled.li`
     height: 80px;
 `;
 
-export const NavLinks = styled(LinkS)`
+export const NavLinks = styled(LinkH)`
     color: #fff;
     display: flex;
     align-items: center;

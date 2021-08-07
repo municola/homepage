@@ -4,6 +4,12 @@ SidebarLink, SidebarRoute } from './SidebarElements'
 
 
 const Sidebar = ({isOpen, toggle}) => {
+    const scrollWithOffset = (el) => {
+        const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+        const yOffset = -80; 
+        window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
+    }
+
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
             <Icon onClick={toggle}>
@@ -11,21 +17,21 @@ const Sidebar = ({isOpen, toggle}) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="home" onClick={toggle} smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+                    <SidebarLink to="/#home" smooth={true} scroll={el => scrollWithOffset(el)}>
                         About
                     </SidebarLink>
-                    <SidebarLink to="education" onClick={toggle} smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+                    <SidebarLink to="/#education" smooth={true} scroll={el => scrollWithOffset(el)}>
                         Education
                     </SidebarLink>
-                    <SidebarLink to="projects" onClick={toggle} smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+                    <SidebarLink to="/#projects" smooth={true} scroll={el => scrollWithOffset(el)}>
                         Projects
                     </SidebarLink>
-                    <SidebarLink to="contact" onClick={toggle} smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+                    <SidebarLink to="/#contact" smooth={true} scroll={el => scrollWithOffset(el)}>
                         Contact
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to="/signin">Download CV</SidebarRoute>
+                    <SidebarRoute to="/cv">Download CV</SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

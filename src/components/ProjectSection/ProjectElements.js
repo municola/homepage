@@ -74,11 +74,15 @@ export const WebTitleFont = styled.h1`
     }
 `
 
-
 export const CardItem = styled.div`
     background: yellow;
     height: 230px;
     width: 230px;
+
+    &:hover {
+
+        background: red;
+    }
 `
 export const CardItemLink = styled(LinkR)`
 
