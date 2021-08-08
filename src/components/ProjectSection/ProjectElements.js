@@ -76,18 +76,29 @@ export const WebTitleFont = styled.h1`
 `
 
 export const CardItem = styled(LinkH)`
-    background: yellow;
+    background: white;
+    border-radius: 11px;
     height: 230px;
     width: 230px;
-
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    
     &:hover {
-
         background: red;
     }
 `
-export const CardItemLink = styled(LinkR)`
 
-`
 export const CardImg = styled.img`
-    
+    width: 100%;
+    border-radius: 10px 10px 0px 00px;
+    //filter: blur(1.5px);
+`
+
+export const CardTitle = styled.p`
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: black;
+    align-self: center;
 `

@@ -1,10 +1,16 @@
 import React from 'react'
+import {ProjecContainer, ProjectWrapper, Title, Text} from '../components/SingleProject/singleProjectElements'
+
 
 const ConnectFour = () => {
     return (
-        <div>
-            <h1>Connect Four</h1>
-        </div>
+        <ProjecContainer>
+            <ProjectWrapper>
+                <Title>Surface Reconstruction from 3D ponint Clouds</Title>
+                <Text>Bachelor Thesis</Text>
+                <Text>Sep 2020 - Mar 2021</Text>
+            </ProjectWrapper>
+        </ProjecContainer>
     )
 }
 
