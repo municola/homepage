@@ -33,4 +33,7 @@ export const schoolIconStyles = {
     background: '#f9c74f'
 }
 
+export const Link = styled.a`
+    color: #035397;
 
+`

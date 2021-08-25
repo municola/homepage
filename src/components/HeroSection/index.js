@@ -10,7 +10,7 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1>Hi, I'm Nicolas</HeroH1>
-                <HeroH2>Machine Learning Engineering Student at ETH</HeroH2>
+                <HeroH2>Machine Learning Student at ETH</HeroH2>
             </HeroContent>
         </HeroContainer>
     )

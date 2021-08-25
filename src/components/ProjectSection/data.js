@@ -1,4 +1,4 @@
-import img1 from "../../images/minion.jpg"
+import img1 from "../../images/geko.jpeg"
 
 export const MlCards = [
     {
@@ -9,6 +9,7 @@ export const MlCards = [
         description: "Given a 3D input point cloud we return the reconstructed shape in a 3d mesh representation",
         img: img1,
         display: true,
+        style: {height: '100%'},
     },
     {
         key: 2,
@@ -18,6 +19,7 @@ export const MlCards = [
         area: "Computer Vision",
         img: img1,
         display: true,
+        style: {height: '100%'},
     },
     {
         key: 3,
@@ -27,6 +29,7 @@ export const MlCards = [
         area: "Natural Language processing",
         img: img1,
         display: true,
+        style: {height: '100%'},
     },
     {
         key: 4,
@@ -36,6 +39,7 @@ export const MlCards = [
         area: "Medicine",
         img: img1,
         display: true,
+        style: {height: '100%', width: '75%', marginTop:'10px'},
     }
 ];
 
@@ -46,6 +50,7 @@ export const WebCards = [
         title: "ConnectFour",
         area: "React, Redux, NodeJs",
         display: true,
+        style: {height: '100%'},
     },
     {
         key: 6,
@@ -53,13 +58,17 @@ export const WebCards = [
         title: "LoL API",
         area: "React, RestAPI",
         display: true,
+        style: {height: '100%'},
     },
+    /*
     {
-        id: 7,
+        key: 7,
         path: "Homepage",
         title: "Homepage",
         area: "React",
         display: true,
+        style: {height: '100%'},
     },
+    */
 ];
 

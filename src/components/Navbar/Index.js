@@ -1,7 +1,9 @@
 import React, {useState, useEffect} from 'react'
 import {FaBars} from 'react-icons/fa'
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks,
-NavBtn, NavBtnLink} from './NavBarElements'
+	NavBtn, NavBtnLink} from './NavBarElements'
+
+import Pdf from '../../documents/BachelorThesis.pdf';
 
 const Navbar = ({toggle}) => {
 	const scrollWithOffset = (el) => {
@@ -33,7 +35,7 @@ const Navbar = ({toggle}) => {
 						</NavItem>
 					</NavMenu>
 					<NavBtn>
-						<NavBtnLink to="/cv">Download CV</NavBtnLink>
+						<NavBtnLink href={Pdf} target="_blank">View CV</NavBtnLink>
 					</NavBtn>
 				</NavbarContainer>
 			</Nav>

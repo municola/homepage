@@ -83,22 +83,36 @@ export const CardItem = styled(LinkH)`
     text-decoration: none;
     display: flex;
     flex-direction: column;
+    align-items: center;
     
     &:hover {
-        background: red;
+        transform: scale(1.05);
+        transition: all 0.3s ease;
     }
 `
 
-export const CardImg = styled.img`
-    width: 100%;
-    border-radius: 10px 10px 0px 00px;
+export const CardImageSegment = styled.div`
+    border-radius: 10px 10px 0px 0px;
     //filter: blur(1.5px);
+    display: flex;
+    justify-content: center;
+    height: 60%;
+`
+
+export const CardImg = styled.img`
+    border-radius: 10px 10px 0px 0px;
+    height: 100%;
+    width: 100%;
+`
+
+export const CardTitleSegment = styled.div`
+    display: flex;
+    align-items: center;
+    height: 40%;
 `
 
 export const CardTitle = styled.p`
-    margin-top: 10px;
     font-weight: 300;
     font-size: 1.2rem;
     color: black;
-    align-self: center;
 `

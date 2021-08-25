@@ -2,6 +2,7 @@ import React from 'react'
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SideBtnWrap,
 SidebarLink, SidebarRoute } from './SidebarElements'
 
+import Pdf from '../../documents/BachelorThesis.pdf';
 
 const Sidebar = ({isOpen, toggle}) => {
     const scrollWithOffset = (el) => {
@@ -31,7 +32,7 @@ const Sidebar = ({isOpen, toggle}) => {
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to="/cv">Download CV</SidebarRoute>
+                    <SidebarRoute href={Pdf} target="_blank">View CV</SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>
