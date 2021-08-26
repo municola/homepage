@@ -39,7 +39,7 @@ export const MlCards = [
         area: "Medicine",
         img: img1,
         display: true,
-        style: {height: '100%', width: '75%', marginTop:'10px'},
+        style: {height: '100%', width: '75%', marginTop:'2px'},
     }
 ];
 

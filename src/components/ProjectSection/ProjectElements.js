@@ -4,7 +4,7 @@ import {HashLink as LinkH} from 'react-router-hash-link';
 
 export const ProjectContainer = styled.div`
     width: 100%;
-    background: #232a34;
+    background: #1f2833;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,6 +76,7 @@ export const WebTitleFont = styled.h1`
 `
 
 export const CardItem = styled(LinkH)`
+    //background: #66fcf1;
     background: white;
     border-radius: 11px;
     height: 230px;
@@ -97,6 +98,7 @@ export const CardImageSegment = styled.div`
     display: flex;
     justify-content: center;
     height: 60%;
+    background: white;
 `
 
 export const CardImg = styled.img`

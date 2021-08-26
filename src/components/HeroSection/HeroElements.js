@@ -21,12 +21,14 @@ export const HeroBg = styled.div`
     overflow: hidden;
 `
 
-export const HeroImg = styled.div`
-    width: 100%;
-    height: 100%;
+export const HeroImg = styled.img`
+    width: 103%;
+    height: 103%;
     -o-object-fit: cover;
     object-fit: cover;
-    background: #232a34;
+    background: black;
+    margin: -10px;
+    filter: blur(6px) brightness(0.23);
 `
 
 export const HeroContent = styled.div`
@@ -37,7 +39,6 @@ export const HeroContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-
 `
 
 export const HeroH1 = styled.h1`
@@ -68,4 +69,8 @@ export const HeroH2 = styled.p`
     @media screen and (max-width: 480px) {
         font-size: 28px;
     }
+`
+
+export const Text = styled.p`
+    color: white;
 `

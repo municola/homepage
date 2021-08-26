@@ -3,7 +3,7 @@ import {Link as LinkR} from 'react-router-dom'
 
 export const FooterContainer = styled.div`
     height: calc(100vh - 80px);
-    background: #4b6cc1;
+    background: #469396;
     display: flex;
     justify-content: center;
 
@@ -67,7 +67,7 @@ export const Logo = styled.a`
 export const MailToButtonWrapper = styled(LinkR)`
     font-size: 1.5rem;
     border-radius: 2px;
-    background: #01bf71;
+    background: white;
     white-space: nowrap;
     padding: 17px 22px;
     color: #010606;
@@ -80,7 +80,7 @@ export const MailToButtonWrapper = styled(LinkR)`
 
     &:hover{
         transition: all 0.2s ease-in-out;
-        background: #fff;
+        background: #66fcf1;
         color: #010606;
     }
 `

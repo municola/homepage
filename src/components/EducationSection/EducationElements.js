@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const EducationContainer = styled.div`
-    background-color: #4b6cc1;
+    background-color: #469396;
 
 `
 export const EducationWrapper = styled.div`
@@ -30,7 +30,7 @@ export const workIconStyles = {
 }
 
 export const schoolIconStyles = {
-    background: '#f9c74f'
+    background: '#66fcf1'
 }
 
 export const Link = styled.a`
