@@ -24,7 +24,7 @@ const AuthorPrediction = () => {
                         <Text>1. Predict the author of a judical opinion text</Text>
                         <Text>2. Detect influence of different judges on the opinions of other judges.</Text>
                         <br></br>
-                        <TitleImg src={titleImg} alt="titleImg" style={{height: "280px"}}/>
+                        <TitleImg src={titleImg} alt="titleImg" style={{maxHeight: "280px"}}/>
                     </TextBox>
                 </TextSegment>
                 <br></br>
@@ -68,6 +68,7 @@ const AuthorPrediction = () => {
                         <Text>Scikit-learn</Text>
                     </TextBox>
                 </TextSegment>
+                <br></br>
             </ProjectWrapper>
         </ProjecContainer>
     )

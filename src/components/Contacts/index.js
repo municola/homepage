@@ -33,7 +33,7 @@ const Contacts = () => {
 														href="https://www.linkedin.com/in/nicolas-muntwyler-9598b8154/" 
 														target="_blank" 
 														rel="noreferrer">
-															Connecte with me on LinkedIn
+															Connect with me on LinkedIn
 													</Link>
 											</ContactLine>
 									</ContactInfos>
