@@ -16,22 +16,22 @@ const Navbar = ({toggle}) => {
 		<>
 			<Nav>
 				<NavbarContainer>
-					<NavLogo to='/#home' scroll={el => scrollWithOffset(el)}>Nicolas Muntwyler</NavLogo>
+					<NavLogo to='/home' scroll={el => scrollWithOffset(el)}>Nicolas Muntwyler</NavLogo>
 					<MobileIcon onClick={toggle}>
 						<FaBars />
 					</MobileIcon>
 					<NavMenu>
 						<NavItem>
-							<NavLinks to="/#home" smooth={true} scroll={el => scrollWithOffset(el)}>About</NavLinks>
+							<NavLinks to="/nicolasmuntwyler/#home" smooth={true} scroll={el => scrollWithOffset(el)}>About</NavLinks>
 						</NavItem>
 						<NavItem>
-							<NavLinks to="/#education" smooth={true} scroll={el => scrollWithOffset(el)}>Education</NavLinks>
+							<NavLinks to="/nicolasmuntwyler/#education" smooth={true} scroll={el => scrollWithOffset(el)}>Education</NavLinks>
 						</NavItem>
 						<NavItem>
-							<NavLinks to="/#projects" smooth={true} scroll={el => scrollWithOffset(el)}>Projects</NavLinks>
+							<NavLinks to="/nicolasmuntwyler/#projects" smooth={true} scroll={el => scrollWithOffset(el)}>Projects</NavLinks>
 						</NavItem>
 						<NavItem>
-							<NavLinks to="/#contact" smooth={true} scroll={el => scrollWithOffset(el)}>Contact</NavLinks>
+							<NavLinks to="/nicolasmuntwyler/#contact" smooth={true} scroll={el => scrollWithOffset(el)}>Contact</NavLinks>
 						</NavItem>
 					</NavMenu>
 					<NavBtn>

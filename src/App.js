@@ -26,14 +26,14 @@ function App() {
 				<Sidebar isOpen={isOpen} toggle={toggle} />
         <Navbar toggle={toggle}/>
         <Switch>
-					<Route path="/" component={Home} exact />
-          <Route path="/BachelorThesis" component={BachelorThesis} exact />
-          <Route path="/OpticalFlow" component={OpticalFlow} exact />
-          <Route path="/AuthorPrediction" component={AuthorPrediction} exact />
-          <Route path="/Others" component={Others} exact />
-          <Route path="/ConnectFour" component={ConnectFour} exact />
-          <Route path="/LolAPI" component={LolAPI} exact />
-          <Route path="/Homepage" component={Homepage} exact />
+					<Route path="/nicolasmuntwyler" component={Home} exact />
+          <Route path="/nicolasmuntwyler/BachelorThesis" component={BachelorThesis} exact />
+          <Route path="/nicolasmuntwyler/OpticalFlow" component={OpticalFlow} exact />
+          <Route path="/nicolasmuntwyler/AuthorPrediction" component={AuthorPrediction} exact />
+          <Route path="/nicolasmuntwyler/Others" component={Others} exact />
+          <Route path="/nicolasmuntwyler/ConnectFour" component={ConnectFour} exact />
+          <Route path="/nicolasmuntwyler/LolAPI" component={LolAPI} exact />
+          <Route path="/nicolasmuntwyler/Homepage" component={Homepage} exact />
         </Switch>
     </Router>
   );

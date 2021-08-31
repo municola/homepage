@@ -18,16 +18,16 @@ const Sidebar = ({isOpen, toggle}) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="/#home" smooth={true} scroll={el => scrollWithOffset(el)}>
+                    <SidebarLink to="/nicolasmuntwyler/#home" smooth={true} scroll={el => scrollWithOffset(el)}>
                         About
                     </SidebarLink>
-                    <SidebarLink to="/#education" smooth={true} scroll={el => scrollWithOffset(el)}>
+                    <SidebarLink to="/nicolasmuntwyler/#education" smooth={true} scroll={el => scrollWithOffset(el)}>
                         Education
                     </SidebarLink>
-                    <SidebarLink to="/#projects" smooth={true} scroll={el => scrollWithOffset(el)}>
+                    <SidebarLink to="/nicolasmuntwyler/#projects" smooth={true} scroll={el => scrollWithOffset(el)}>
                         Projects
                     </SidebarLink>
-                    <SidebarLink to="/#contact" smooth={true} scroll={el => scrollWithOffset(el)}>
+                    <SidebarLink to="/nicolasmuntwyler/#contact" smooth={true} scroll={el => scrollWithOffset(el)}>
                         Contact
                     </SidebarLink>
                 </SidebarMenu>
