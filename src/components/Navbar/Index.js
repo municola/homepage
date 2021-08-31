@@ -16,7 +16,7 @@ const Navbar = ({toggle}) => {
 		<>
 			<Nav>
 				<NavbarContainer>
-					<NavLogo to='/home' scroll={el => scrollWithOffset(el)}>Nicolas Muntwyler</NavLogo>
+					<NavLogo to='/nicolasmuntwyler/#home' scroll={el => scrollWithOffset(el)}>Nicolas Muntwyler</NavLogo>
 					<MobileIcon onClick={toggle}>
 						<FaBars />
 					</MobileIcon>

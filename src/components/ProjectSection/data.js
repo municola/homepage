@@ -57,7 +57,7 @@ export const WebCards = [
     {
         key: 6,
         path: "LolAPI",
-        title: "LoL API",
+        title: "Online Checker",
         area: "React, RestAPI",
         display: true,
         style: {height: '100%'},

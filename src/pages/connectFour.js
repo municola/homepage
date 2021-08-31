@@ -53,8 +53,8 @@ const ConnectFour = () => {
                 <TextSegment>
                     <TextTitle>Material: </TextTitle>
                     <TextBox>
-                        <Link href="https://git.dolansoft.org/nicolas/connect4" target = "_blank">Code Website</Link>
-                        <Link href="https://git.dolansoft.org/nicolas/connect4server" target = "_blank">Code Server</Link>
+                        <Link href="https://github.com/municola/connect4" target = "_blank">Code Website</Link>
+                        <Link href="https://github.com/municola/connect4server" target = "_blank">Code Server</Link>
                     </TextBox>
                 </TextSegment>
                 <br></br>

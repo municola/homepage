@@ -19,8 +19,8 @@ const Contacts = () => {
 									<MailToButton label="Send me a message" mailto="mailto:nicolas.muntwyler@gmail.com" />
 									<ContactInfos>
 											<ContactLine>
-													<Logo href="https://git.dolansoft.org/nicolas/"target="_blank" rel="noreferrer"><AiFillGithub /></Logo>
-													<Link href="https://git.dolansoft.org/nicolas/" target="_blank" rel="noreferrer">Have a look at some code</Link>
+													<Logo href="https://github.com/municola"target="_blank" rel="noreferrer"><AiFillGithub /></Logo>
+													<Link href="https://github.com/municola" target="_blank" rel="noreferrer">Have a look at some code</Link>
 											</ContactLine>
 											<ContactLine>
 													<Logo onClick={callMail} rel="noreferrer"><AiOutlineMail /></Logo>
