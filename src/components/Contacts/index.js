@@ -3,7 +3,6 @@ import {FooterContainer, FooterWrapper, FooterH1, ContactWrapper,
     ContactInfos, ContactLine, Logo, Link} from './ContactsElements'
 import {AiFillGithub, AiOutlineMail, AiFillLinkedin} from 'react-icons/ai'
 import MailToButton from './MailToButton'
-import { CallMadeOutlined } from '@material-ui/icons'
 
 
 const Contacts = () => {
