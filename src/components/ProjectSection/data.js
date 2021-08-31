@@ -31,6 +31,7 @@ export const MlCards = [
         display: true,
         style: {height: '100%'},
     },
+    /*
     {
         key: 4,
         path: "Others",
@@ -41,6 +42,7 @@ export const MlCards = [
         display: true,
         style: {height: '100%', width: '75%', marginTop:'2px'},
     }
+    */
 ];
 
 export const WebCards = [

@@ -70,6 +70,7 @@ const OpticalFlow = () => {
                         <Text>Pytorch</Text>
                     </TextBox>
                 </TextSegment>
+                <br></br>
             </ProjectWrapper>
         </ProjecContainer>
     )

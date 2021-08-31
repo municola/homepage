@@ -3,7 +3,7 @@ import {FaBars} from 'react-icons/fa'
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks,
 	NavBtn, NavBtnLink} from './NavBarElements'
 
-import Pdf from '../../documents/BachelorThesis.pdf';
+import Pdf from '../../documents/CV.pdf';
 
 const Navbar = ({toggle}) => {
 	const scrollWithOffset = (el) => {

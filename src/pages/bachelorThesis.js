@@ -69,6 +69,7 @@ const BachelorThesis = () => {
                         <Text>Pytorch, Pytorch-lightning, Hydra</Text>
                     </TextBox>
                 </TextSegment>
+                <br></br>
             </ProjectWrapper>
         </ProjecContainer>
     )

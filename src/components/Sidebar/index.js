@@ -2,7 +2,7 @@ import React from 'react'
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SideBtnWrap,
 SidebarLink, SidebarRoute } from './SidebarElements'
 
-import Pdf from '../../documents/BachelorThesis.pdf';
+import Pdf from '../../documents/CV.pdf';
 
 const Sidebar = ({isOpen, toggle}) => {
     const scrollWithOffset = (el) => {
