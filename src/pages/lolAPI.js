@@ -1,6 +1,6 @@
 import React from 'react'
 import {ProjecContainer, ProjectWrapper, Title, TitleImg, Date, 
-    Course, Text, Link, Link2, Label3, TextTitle, 
+    Course, Text, Link, TextTitle, 
     TextBox, TextSegment} from '../components/SingleProject/singleProjectElements'
 import titleImg from '../images/lolAPI.png'
 
@@ -34,7 +34,7 @@ const LolAPI = () => {
                             If the player is already in a game, it additionaly displays additional which other players he is currently playing.
                         </Text>
                         <br></br>
-                        <TitleImg src={titleImg} alt="titleImg" style={{height: "300px"}}/>
+                        <TitleImg src={titleImg} alt="titleImg"/>
                     </TextBox>
                 </TextSegment>
                 <br></br>

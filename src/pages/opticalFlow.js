@@ -25,7 +25,7 @@ const OpticalFlow = () => {
                         <Text>For each pixel we estimate its movement between the left and the right RGB image. 
                             The flow prediction is visualized with the middle image.</Text>
                         <br></br>
-                        <TitleImg src={titleImg} alt="titleImg" style={{height: "200px"}}/>
+                        <TitleImg src={titleImg} alt="titleImg" style={{maxHeight: "200px"}}/>
                     </TextBox>
                 </TextSegment>
                 <br></br>
@@ -44,7 +44,7 @@ const OpticalFlow = () => {
                 <TextSegment>
                     <TextTitle>Performance: </TextTitle>
                     <TextBox>
-                        <Text>We achieve a 67% End Point Error reduction regarding the normal PWC-Net (NVIDIA)</Text>
+                        <Text>We achieve a 67% End Point Error reduction in respect to the normal PWC-Net (NVIDIA)</Text>
                     </TextBox>
                 </TextSegment>
                 <br></br>

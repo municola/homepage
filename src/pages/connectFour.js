@@ -1,6 +1,6 @@
 import React from 'react'
 import {ProjecContainer, ProjectWrapper, Title, TitleImg, Date, 
-    Course, Text, Link, Link2, Label3, TextTitle, 
+    Course, Text, Link, Link2, TitleImg2, TextTitle, ImageBox,
     TextBox, TextSegment} from '../components/SingleProject/singleProjectElements'
 import titleImg from '../images/c4im1.png'
 import titleImg2 from '../images/c4im2.png'
@@ -34,8 +34,10 @@ const ConnectFour = () => {
                             enemy just set in his last turn)"</Text>
                         <Text>With this new rule many new strategies emerge and make the game intersting again.</Text>
                         <br></br>
-                        <TitleImg src={titleImg} alt="titleImg" style={{height: "300px"}}/>
-                        <TitleImg src={titleImg2} alt="titleImg" style={{height: "300px", marginLeft: "50px"}}/>
+                        <ImageBox>
+                            <div><TitleImg src={titleImg} alt="titleImg"/></div>
+                            <div><TitleImg2 src={titleImg2} alt="titleImg"/></div>
+                        </ImageBox>
                     </TextBox>
                 </TextSegment>
                 <br></br>

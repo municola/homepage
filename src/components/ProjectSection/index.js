@@ -1,6 +1,6 @@
 import React from 'react'
 import { ProjectContainer, ProjectH1, CardsContainer, MLContainer,
-    MlTitle, WebTitle, WebTitleFont, CardImg} from './ProjectElements'
+    MlTitle, WebTitle, WebTitleFont} from './ProjectElements'
 import {MlCards, WebCards} from './data'
 import Card from './Card'
 import picSur from '../../images/thumnailSurface.png'

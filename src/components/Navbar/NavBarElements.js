@@ -1,6 +1,4 @@
 import styled from 'styled-components'
-import {Link as LinkR} from 'react-router-dom'
-import {Link as LinkS} from 'react-scroll'
 import {HashLink as LinkH} from 'react-router-hash-link';
 
 export const Nav = styled.nav`
@@ -82,8 +80,8 @@ export const NavLinks = styled(LinkH)`
     height: 100%;
     cursor: pointer;
 
-    &.active{
-        //border-bottom: 3px solid #01bf71;
+    &:hover {
+        color: #66fcf1;
     }
 `;
 

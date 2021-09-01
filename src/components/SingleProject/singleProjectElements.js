@@ -20,10 +20,6 @@ export const Title = styled.h1`
     padding-bottom: 5px;
 `
 
-export const TitleImg = styled.img`
-    max-width: 100%;
-`
-
 export const Date = styled.p`
     color: grey;
 `
@@ -121,5 +117,28 @@ export const TextSegment = styled.div`
 `
 
 export const TextBox = styled.div`
+`
 
+export const TitleImg = styled.img`
+    max-height: 300px;
+    max-width: 100%;
+`
+
+export const TitleImg2 = styled.img`
+    max-height: 300px;
+    max-width: 100%;
+    margin-left: 50px;
+
+    @media screen and (max-width: 875px) {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+`
+
+export const ImageBox = styled.div`
+    display: flex;
+
+    @media screen and (max-width: 875px) {
+        flex-direction: column;
+    }
 `

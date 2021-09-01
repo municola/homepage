@@ -1,6 +1,6 @@
 import React from 'react'
 import {ProjecContainer, ProjectWrapper, Title, TitleImg, Date, 
-    Course, Text, Link, Label1, Label3, TextTitle, 
+    Course, Text, Link, Label3, TextTitle, 
     TextBox, TextSegment} from '../components/SingleProject/singleProjectElements'
 import titleImg from '../images/opinionText.png'
 import Pdf from '../documents/NLP.pdf';

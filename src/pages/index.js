@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import EducationSection from '../components/EducationSection';
 import HeroSection from '../components/HeroSection';
 import ProjectSection from '../components/ProjectSection';

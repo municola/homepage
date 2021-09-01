@@ -1,6 +1,6 @@
 import React from 'react'
-import {ProjecContainer, ProjectWrapper, Title, TitleImg, Date, 
-    Course, Text, Link, Label1, Label3, TextTitle, 
+import {ProjecContainer, ProjectWrapper, Title, Date, 
+    Course, Text, TextTitle, 
     TextBox, TextSegment} from '../components/SingleProject/singleProjectElements'
 
 const Others = () => {

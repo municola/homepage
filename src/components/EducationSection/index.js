@@ -36,6 +36,7 @@ const EducationSection = () => {
                             {hasDescription2 && <p style={{margin: '0px 0px 0px 0px'}}>{element.description2}</p>}
                             <br></br>
                             {hasButton && <Link href={Pdf} target = "_blank">{element.buttonText}</Link>}
+                            <br></br>
                           </VerticalTimelineElement>
                         );
                       })}

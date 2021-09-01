@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import {FaTimes} from 'react-icons/fa'
-import {Link as LinkR} from 'react-router-dom'
 import {HashLink as LinkH} from 'react-router-hash-link';
 
 
@@ -61,7 +60,7 @@ export const SidebarLink = styled(LinkH)`
     cursor: pointer;
 
     &:hover {
-        color: #01bf71;
+        color: #66fcf1;
         transition: 0.2s ease-in-out;
     }
 `
