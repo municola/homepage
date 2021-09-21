@@ -1,6 +1,6 @@
 import React from 'react'
 import { ProjectContainer, ProjectH1, CardsContainer, MLContainer,
-    MlTitle, WebTitle, WebTitleFont} from './ProjectElements'
+    MlTitle, WebTitle, WebTitleFont, SimpleText, Link} from './ProjectElements'
 import {MlCards, WebCards} from './data'
 import Card from './Card'
 import picSur from '../../images/thumnailSurface.png'
@@ -29,6 +29,16 @@ export default function ProjectSection() {
                         );
                     })}
                 </MLContainer>
+                <SimpleText>
+                    Find more interesting projects on my
+                    <Link 
+                        href="https://github.com/municola" 
+                        target="_blank" 
+                        rel="noreferrer">
+                            Github
+                    </Link>
+                </SimpleText>
+                {/*
                 <MLContainer>
 						<WebTitle>
 							<WebTitleFont>Web Development</WebTitleFont>
@@ -39,6 +49,7 @@ export default function ProjectSection() {
 							);
 						})}
                 </MLContainer>
+                    */}
             </CardsContainer>
         </ProjectContainer>
     )

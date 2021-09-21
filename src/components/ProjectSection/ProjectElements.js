@@ -1,16 +1,18 @@
 import styled from 'styled-components'
 import {HashLink as LinkH} from 'react-router-hash-link';
+import {Link as LinkR} from 'react-router-dom'
 
 export const ProjectContainer = styled.div`
     width: 100%;
     background: #1f2833;
     display: flex;
-    justify-content: center;
+    //justify-content: center;
     align-items: center;
     padding: 0 24px;
     position: relative;
     z-index: 1;
     flex-direction: column;
+    min-height: calc(100vh - 80px);
 `
 
 export const ProjectH1 = styled.h1`
@@ -21,6 +23,26 @@ export const ProjectH1 = styled.h1`
     margin-top: 100px;
     margin-bottom: 100px;
 `
+export const SimpleText = styled.p`
+    color: white;
+    font-weight: 100;
+    font-size: 1.2rem;
+    margin-top: 50px;
+`
+
+export const Link = styled.a`
+    color: white;
+    font-weight: 100;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 5px;
+    text-decoration: underline;
+
+    &:hover {
+        color: #66fcf1
+    }
+`
+
 export const CardsContainer = styled.div`
     width: 100%;
     padding: 0 24px;
@@ -97,6 +119,7 @@ export const CardImageSegment = styled.div`
     display: flex;
     justify-content: center;
     height: 60%;
+    width: 100%;
     background: white;
 `
 
